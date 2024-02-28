@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="player">
+        <header>
+            <img src="images/upload.png" width="40" alt="" id="upload" onclick="upload()">
+            <h4 id="file-name">Original.mp3</h4>
+        </header>
+        <footer>
+            <div id="controls">
+                <!-- <i class="fa fa-backward" style="color: #fff; font-size: 30px;"></i> -->
+                <div id="play-background">
+                    <i class="fa fa-play-circle" id="play-pause" style="color: red; font-size: 70px;"></i>
+                </div>
+
+                <!-- <i class="fa fa-forward" style="color: #fff; font-size: 30px;"></i> -->
+                <div id="progress">
+                    <div id="progress-bar"></div>
+                </div>
+                <span id="duration">1:00/5:00</span>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

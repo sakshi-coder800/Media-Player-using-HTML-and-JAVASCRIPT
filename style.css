@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#player {
+  width: 300px;
+  height: 480px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  border-top: 30px groove red;
+  border-bottom: 30px ridge red;
+  box-shadow: 0 0 10px #786b6b;
+}
+
+header {
+  width: 100%;
+  height: 70%;
+  background: url("./images/demo.JPG");
+  background-size: cover;
+  position: relative;
+}
+
+footer {
+  width: 100%;
+  height: 30%;
+  background: url("./images/footer_bg.jpg");
+  background-size: cover;
+}
+
+#controls {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#play-background {
+  width: 55px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0;
+  position: absolute;
+  top: 52px;
+  right: 40%;
+  border-radius: 100%;
+}
+
+#progress {
+  width: 75%;
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 15px;
+  right: 10%;
+  border-radius: 10px;
+}
+
+#progress-bar {
+  /* width: 10%; */
+  width: 0%;
+  background-color: yellow;
+  height: 100%;
+  border-radius: 10px;
+}
+#duration {
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 22px;
+}
+
+#upload {
+  margin: 10px;
+}
+
+#file-name {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 16px;
+  width: 80%;
+  text-align: center;
+}
